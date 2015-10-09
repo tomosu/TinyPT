@@ -1,0 +1,20 @@
+{
+    "Phantom":
+    [
+	{
+	    "Name": "Base",
+	    "Parent": "Root",
+	    "Shape":
+	    {
+		"Type": "Ball",
+		"Parameter":
+		{
+		    "Center": {"x": 0.0, "y": 0.0, "z": 0.0},
+		    "Rad": 3.0
+		}
+	    },
+	    "Compound": "H2O"
+	}
+	
+    ]
+}

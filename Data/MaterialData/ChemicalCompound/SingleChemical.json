@@ -1,0 +1,26 @@
+{
+    
+    	"Al":
+	{
+		"IsCompound": false,
+		"Name": "Alminum",
+		"Density": 2.699,
+		"Element":
+		[
+			{ "AtomicNumber": 13, "Quantity": 1 }
+		]
+	}
+
+    
+	"Ge":
+	{
+		"IsCompound": false,
+		"Name": "Germanium",
+		"Density": 5.323,
+		"Element":
+		[
+			{ "AtomicNumber": 32, "Quantity": 1 }
+		]
+	}
+
+}

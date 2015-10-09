@@ -1,0 +1,89 @@
+{
+    "Phantom":
+    [
+
+
+
+	{
+	    "Name": "Base",
+	    "Parent": "Root",
+	    "Shape":
+	    {
+		"Type": "Ball",
+		"Parameter":
+		{
+		    "Center": {"x": 0.0, "y": 0.0, "z": 0.0},
+		    "Rad": 6.0
+		}
+	    },
+	    "Compound": "H2O"
+	},
+	
+
+
+	
+	{
+	    "Name": "Signal_1",
+	    "Parent": "Base",
+	    "Shape":
+	    {
+		"Type": "Ball",
+		"Parameter":
+		{
+		    "Center": {"x": 2.0, "y": 2.0, "z": 0.0},
+		    "Rad": 0.7
+		}
+	    },
+	    "Compound": "H2O"
+	},
+
+	{
+	    "Name": "Signal_1_1",
+	    "Parent": "Signal_1",
+	    "Shape":
+	    {
+		"Type": "Ball",
+		"Parameter":
+		{
+		    "Center": {"x": 2.0, "y": 2.0, "z": 0.0},
+		    "Rad": 0.4
+		}
+	    },
+	    "Compound": "Al"
+	},
+
+
+	{
+	    "Name": "Signal_2",
+	    "Parent": "Base",
+	    "Shape":
+	    {
+		"Type": "Ball",
+		"Parameter":
+		{
+		    "Center": {"x": -3.0, "y": 0.0, "z": 2.0},
+		    "Rad": 0.5
+		}
+	    },
+	    "Compound": "Al"
+	},
+
+
+
+	{
+	    "Name": "Signal_3",
+	    "Parent": "Base",
+	    "Shape":
+	    {
+		"Type": "Ball",
+		"Parameter":
+		{
+		    "Center": {"x": 0.0, "y": -2.0, "z": -2.0},
+		    "Rad": 0.5
+		}
+	    },
+	    "Compound": "Al"
+	}
+	
+    ]
+}

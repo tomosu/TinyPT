@@ -1,0 +1,51 @@
+{
+        
+    	"Al":
+	{
+		"IsCompound": false,
+		"Name": "Alminum",
+		"Density": 2.699,
+		"Element":
+		[
+			{ "AtomicNumber": 13, "Quantity": 1 }
+		]
+	},
+
+
+	"H2O":
+	{
+		"IsCompound": true,
+		"Name": "H2O",
+		"Density": 1.0,
+		"Element":
+		[
+			{ "AtomicNumber": 1, "Quantity": 2 },
+			{ "AtomicNumber": 8, "Quantity": 1 }
+		]
+	},
+
+        
+	"Ge":
+	{
+		"IsCompound": false,
+		"Name": "Germanium",
+		"Density": 5.323,
+		"Element":
+		[
+			{ "AtomicNumber": 32, "Quantity": 1 }
+		]
+	},
+
+    
+	"CsI":
+	{
+		"IsCompound": true,
+		"Name": "CsI",
+		"Density": 4.51,
+		"Element":
+		[
+			{ "AtomicNumber": 55, "Quantity": 1 },
+			{ "AtomicNumber": 53, "Quantity": 1 }
+		]
+	}
+}
