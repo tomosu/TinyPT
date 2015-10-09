@@ -3,6 +3,7 @@ TinyPT is a simple photon transport code for me, a quiche eater.
 ## Example1: Cone beam CT simulation
 ![Alt Text](https://github.com/tomosu/TinyPT/raw/master/Image/attenuationImage.gif)
 ## Example2: Photon scattering angle calculation
+```
 Compound Name: CsI
 Density: 4.510000e+00
 
@@ -62,3 +63,4 @@ probability
          ###################################################
          0.00e+00                 8.82e+01                 1.76e+02
                                                           degree
+                                                          ```
