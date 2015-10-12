@@ -193,7 +193,7 @@ MontecarloResult Photon::CoherentScattering(const SharedCompoundPtr compound,
   double lambda = ConvertMeVToAngstroms(this->Energy_MeV);
 
   double r1 =compound->GetComposedCoherentScatteringFormFactorDistributionMax() *random.GenRand();
-  double x =compound->GetMomentumTransferByCoposedCoherentScatteringFormFactorDistribution( r1 );
+  double x =compound->GetMomentumTransferByComposedCoherentScatteringFormFactorDistribution( r1 );
 
   double sinValHalf = x *lambda;
   double cosVal = 1.0 -2.0 *sinValHalf *sinValHalf;

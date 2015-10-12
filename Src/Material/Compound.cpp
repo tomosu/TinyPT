@@ -594,7 +594,7 @@ public:
 
 
 
-double Compound::GetMomentumTransferByCoposedCoherentScatteringFormFactorDistribution(const double F)
+double Compound::GetMomentumTransferByComposedCoherentScatteringFormFactorDistribution(const double F)
 {
   // Find energy range
   PredicateGreaterFormFactor pred(F);

@@ -210,7 +210,7 @@ public:
   {
     return ComposedCoherentScatteringFormFactorDistributionMax;
   };
-  double GetMomentumTransferByCoposedCoherentScatteringFormFactorDistribution(const double F);
+  double GetMomentumTransferByComposedCoherentScatteringFormFactorDistribution(const double F);
 
 
   // Incoherent(Compton)
