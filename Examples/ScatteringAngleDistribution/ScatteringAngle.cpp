@@ -14,7 +14,7 @@ void CalcCoherentScattering(const long long int iter_num,
 {
 
   // Gen X axis
-  int graduation=60;
+  int graduation=50;
   double radStep=180.0/(double)graduation;
   std::vector<double> rad;
   double sum=0.0;
@@ -40,7 +40,7 @@ void CalcCoherentScattering(const long long int iter_num,
   std::string mark("*");
   std::string xlabel("degree");
   std::string ylabel("probability");
-  Plotter plotter(graduation, 25, xlabel, ylabel);
+  Plotter plotter(graduation, 18, xlabel, ylabel);
   plotter.Plot(rad, hist, mark);
 
 }
@@ -54,7 +54,7 @@ void CalcIncoherentScattering(const long long int iter_num,
 {
 
   // Gen X axis
-  int graduation=60;
+  int graduation=50;
   double radStep=180.0/(double)graduation;
 
   std::vector<double> rad;
@@ -81,7 +81,7 @@ void CalcIncoherentScattering(const long long int iter_num,
   std::string mark("*");
   std::string xlabel("degree");
   std::string ylabel("probability");
-  Plotter plotter(graduation, 25, xlabel, ylabel);
+  Plotter plotter(graduation, 18, xlabel, ylabel);
   plotter.Plot(rad, hist, mark);
 }
 
