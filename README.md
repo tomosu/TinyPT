@@ -94,5 +94,7 @@ probability
 
 ## References
 Physical reference data is by [NIST](http://www.nist.gov/pml/data/).
-Formatted data is by [KEK(\EGS\)](http://rcwww.kek.jp/research/egs/egs5.html) and [Kato Hideki](http://www.fujita-hu.ac.jp/~hid-kato/).
+
+Formatted data is by [KEK\(EGS\)](http://rcwww.kek.jp/research/egs/egs5.html) and [Kato Hideki](http://www.fujita-hu.ac.jp/~hid-kato/).
+
 JSON library by [kazuho\(picojson\)](https://github.com/kazuho).
